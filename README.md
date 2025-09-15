@@ -1,6 +1,3 @@
-# projeto_data_science
-
-
 # 📊 Análise de Dados de Vendas - Projeto Data Science
 
 ## 📖 Sobre o Projeto
