@@ -10,11 +10,38 @@ Análise completa de dados de vendas internacionais com foco em segmentação de
 - Gerar insights acionáveis para estratégia comercial
 
 ## 📊 Dataset
-- **Fonte**: [Nome da fonte ou contexto]
-- **Período**: Dezembro 2010 - Dezembro 2011
-- **Registros**: [X] mil transações
-- **Variáveis**: 8 colunas incluindo data, produto, quantidade, preço, país
 
+### 📦 Fonte dos Dados
+Este projeto utiliza o dataset **"Online Retail"** disponível publicamente no Kaggle:
+
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/datasets/vijayuv/onlineretail)
+
+**Link direto**: [Online Retail Dataset](https://www.kaggle.com/datasets/vijayuv/onlineretail)
+
+### 📋 Descrição do Dataset
+- **Período**: Dezembro 2010 - Dezembro 2011
+- **Transações**: 541,909 registros
+- **Clientes**: 4,373 clientes únicos  
+- **Países**: 38 países
+- **Produtos**: 4,070 itens diferentes
+
+### 🏷️ Variáveis Principais
+| Variável | Tipo | Descrição |
+|----------|------|-----------|
+| InvoiceNo | String | Número da fatura |
+| StockCode | String | Código do produto |
+| Description | String | Descrição do produto |
+| Quantity | Int | Quantidade vendida |
+| InvoiceDate | DateTime | Data da transação |
+| UnitPrice | Float | Preço unitário |
+| CustomerID | Float | ID do cliente |
+| Country | String | País da venda |
+
+### ⚠️ Notas Importantes
+- Dataset real de varejo com imperfeições típicas
+- Inclui cancelamentos (faturas começando com 'C')
+- Contém valores missing em CustomerID (24.93%)
+- Possui valores negativos para devoluções
 ## 🛠️ Tecnologias Utilizadas
 - **Python 3.9+**
 - **Pandas** - Manipulação de dados
